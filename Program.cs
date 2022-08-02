@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CSharpTrainingDemo
 {
-    public delegate bool AnyArgType_ReturnBoolCommandClass<TSource>(TSource item, string searchWithChar);
+    public delegate bool AnyArgType_ReturnBoolCommandClass<TSource>(TSource item, TSource searchWithChar);
 
     internal class Program
     {
@@ -35,7 +35,7 @@ namespace CSharpTrainingDemo
 
             int[] numbers = { 1, 2, 3, 4, 5, 8 };
             AnyArgType_ReturnBoolCommandClass<int> _intArgBoolReturnCommandObj = new AnyArgType_ReturnBoolCommandClass<int>(Program.IsEven);
-            IEnumerable<int> intResultList = Search<int>(numbers, _intArgBoolReturnCommandObj, null);
+            IEnumerable<int> intResultList = Search<int>(numbers, _intArgBoolReturnCommandObj,0);
 
             Console.WriteLine();
             Console.WriteLine();
@@ -48,7 +48,7 @@ namespace CSharpTrainingDemo
 
         }
 
-        static bool IsEven(int item, string a)
+        static bool IsEven(int item, int  a )
         {
             return item % 2 == 0;
         }
@@ -69,7 +69,7 @@ namespace CSharpTrainingDemo
         //    return item.StartsWith("S");
         //}
 
-        static IEnumerable<Tsource> Search<Tsource>(IEnumerable<Tsource> source, AnyArgType_ReturnBoolCommandClass<Tsource> predicate, string SWC)
+        static IEnumerable<Tsource> Search<Tsource>(IEnumerable<Tsource> source, AnyArgType_ReturnBoolCommandClass<Tsource> predicate, Tsource SWC)
         {
             List<Tsource> resultList = new List<Tsource>();
             //Select name from  names where name ends with "s";
