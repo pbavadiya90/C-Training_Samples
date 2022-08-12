@@ -1,0 +1,10 @@
+C:\Users\320019984\source\repos\ObjectValidation\ObjectValidation\bin\Debug\netcoreapp3.1\ObjectValidation.deps.json
+C:\Users\320019984\source\repos\ObjectValidation\ObjectValidation\bin\Debug\netcoreapp3.1\ObjectValidation.dll
+C:\Users\320019984\source\repos\ObjectValidation\ObjectValidation\bin\Debug\netcoreapp3.1\ObjectValidation.pdb
+C:\Users\320019984\source\repos\ObjectValidation\ObjectValidation\obj\Debug\netcoreapp3.1\ObjectValidation.csprojAssemblyReference.cache
+C:\Users\320019984\source\repos\ObjectValidation\ObjectValidation\obj\Debug\netcoreapp3.1\ObjectValidation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\320019984\source\repos\ObjectValidation\ObjectValidation\obj\Debug\netcoreapp3.1\ObjectValidation.AssemblyInfoInputs.cache
+C:\Users\320019984\source\repos\ObjectValidation\ObjectValidation\obj\Debug\netcoreapp3.1\ObjectValidation.AssemblyInfo.cs
+C:\Users\320019984\source\repos\ObjectValidation\ObjectValidation\obj\Debug\netcoreapp3.1\ObjectValidation.csproj.CoreCompileInputs.cache
+C:\Users\320019984\source\repos\ObjectValidation\ObjectValidation\obj\Debug\netcoreapp3.1\ObjectValidation.dll
+C:\Users\320019984\source\repos\ObjectValidation\ObjectValidation\obj\Debug\netcoreapp3.1\ObjectValidation.pdb
